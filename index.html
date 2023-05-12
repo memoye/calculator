@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/a96ad9e42f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+</head>
+
+<body>
+    <video autoplay muted loop id="background">
+        <source src="videoBg.mp4" type="video/mp4">
+    </video>
+    <main>
+        <div class="calcBody">
+            <div id="display">
+                <p id="display__prob"></p>
+                <p id="evalDisp"></p>
+                <p id="display__ans">0</p>
+            </div>
+            <div id="buttonsDiv">
+                <button class="btn specFn" style="font-weight: bold;" id="clear">C</button>
+                <button class="btn specFn" id="plusOrMinus" value="-">&#177;</button>
+                <button class="btn compBtn" id="square" value="²">
+                    <em >x²</em>
+                </button>
+                <button class="btn operators" value="/" id="divide">÷</button>
+
+                <button class="btn num" id="seven" value="7">7</button>
+                <button class="btn num" id="eight" value="8">8</button>
+                <button class="btn num" id="nine" value="9">9</button>
+
+                <button class="btn operators" id="minus" value="-">-</button>
+
+                <button class="btn num" id="four" value="4">4</button>
+                <button class="btn num" id="five" value="5">5</button>
+                <button class="btn num" id="six" value="6">6</button>
+
+                <button class="btn operators" id="multiply" value="*">×</button>
+
+                <button class="btn num" id="one" value="1">1</button>
+                <button class="btn num" id="two" value="2">2</button>
+                <button class="btn num" id="three" value="3">3</button>
+
+                <button class="btn operators" id="plus" value="+">+</button>
+                <button class="btn point" id="point">.</button>
+
+                <button class="btn num" id="zero">0</button>
+                <button class="btn compBtn equals" id="equals" value="=">=</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
